@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TypeRush ⚡ Levels</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="bg"></canvas>
+  <div class="app">
+    <header class="topbar">
+      <h1>TypeRush ⚡ <small>Levels</small></h1>
+      <div class="toggles">
+        <button id="darkToggle" aria-label="Toggle Dark">🌙</button>
+        <button id="musicToggle" aria-label="Music">🎵</button>
+        <button id="muteToggle" aria-label="SFX">🔊</button>
+      </div>
+    </header>
+
+    <section class="profile">
+      <div class="card">
+        <div class="avatar" id="avatar">🐱</div>
+        <div class="pinfo">
+          <div><b id="pname">Player</b></div>
+          <div class="xpWrap"><div id="xpBar" class="xpBar"></div></div>
+          <div class="meta"><span id="levelBadge" class="badge">Lvl 1</span> <span id="xpText">0 / 100 XP</span></div>
+        </div>
+        <button id="renameBtn" class="ghost small">Rename</button>
+      </div>
+      <div class="missions card">
+        <b>Daily Missions</b>
+        <ul id="missionsList"></ul>
+      </div>
+    </section>
+
+    <section class="hud">
+      <div class="stat"><span>WPM</span><strong id="wpm">0</strong></div>
+      <div class="stat"><span>Accuracy</span><strong id="accuracy">100%</strong></div>
+      <div class="stat"><span>Combo</span><strong id="combo">x0</strong></div>
+      <div class="stat"><span>Time</span><strong id="time">0.0s</strong></div>
+      <div class="stat"><span>Score</span><strong id="score">0</strong></div>
+      <div class="stat"><span>Coins</span><strong id="coins">0</strong></div>
+    </section>
+
+    <section class="gamearea">
+      <div class="wordWrap">
+        <div id="word" class="word">press start</div>
+        <div id="power" class="power hidden">⏱ +Time</div>
+        <div id="progressWrap" class="progressWrap"><div id="progress" class="progress"></div></div>
+      </div>
+      <input id="input" class="input" type="text" autocomplete="off" placeholder="Type here..." disabled />
+    </section>
+
+    <section class="controls">
+      <div class="levels card">
+        <b>Levels</b>
+        <div id="levelsGrid" class="grid"></div>
+      </div>
+      <div class="buttons">
+        <button id="startBtn" class="primary">Start</button>
+        <button id="restartBtn" class="ghost" disabled>Restart</button>
+        <button id="leaderBtn" class="ghost">Leaderboard 🏆</button>
+        <button id="achieveBtn" class="ghost">Achievements 🎖</button>
+      </div>
+    </section>
+
+    <dialog id="resultModal" class="modal">
+      <h2>Round Over</h2>
+      <p><b>WPM:</b> <span id="rWpm">0</span></p>
+      <p><b>Accuracy:</b> <span id="rAcc">0%</span></p>
+      <p><b>Score:</b> <span id="rScore">0</span></p>
+      <p><b>Max Combo:</b> <span id="rMaxCombo">x0</span></p>
+      <form method="dialog">
+        <input id="playerName" placeholder="Your name for leaderboard" />
+        <menu>
+          <button id="saveScoreBtn" class="primary">Save Score</button>
+          <button class="ghost">Close</button>
+        </menu>
+      </form>
+    </dialog>
+
+    <dialog id="leaderModal" class="modal">
+      <h2>Leaderboard 🏆</h2>
+      <ol id="leaderList"></ol>
+      <form method="dialog">
+        <menu>
+          <button class="primary">Close</button>
+          <button id="clearLeader" class="danger" value="default">Clear</button>
+        </menu>
+      </form>
+    </dialog>
+
+    <dialog id="achieveModal" class="modal">
+      <h2>Achievements 🎖</h2>
+      <ul id="achieveList" class="achieves"></ul>
+      <form method="dialog">
+        <menu><button class="primary">Close</button></menu>
+      </form>
+    </dialog>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
