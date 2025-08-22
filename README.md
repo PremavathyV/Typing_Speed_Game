@@ -34,10 +34,7 @@ Progress through levels, earn coins, unlock achievements, and climb the leaderbo
 
 ---
 
-## 📸 Screenshots  
-(Add your screenshots here after running the game)
 
----
 
 ## 🛠 Tech Stack  
 - **Frontend:** HTML, CSS, JavaScript  
