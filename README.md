@@ -40,7 +40,7 @@ Progress through levels, earn coins, unlock achievements, and climb the leaderbo
 - **Frontend:** HTML, CSS, JavaScript  
 - **Storage:** LocalStorage (for scores, achievements, and progress)  
 
----
+--
 
 ## 🚀 How to Run  
 
