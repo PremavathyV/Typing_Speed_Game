@@ -37,7 +37,7 @@ Progress through levels, earn coins, unlock achievements, and climb the leaderbo
 
 
 ## 🛠 Tech Stack  
-- **Frontend:** HTML, CSS, JavaScript  
+- **Frontend:** HTML, CSS, JavaScript 
 - **Storage:** LocalStorage (for scores, achievements, and progress)  
 
 --
