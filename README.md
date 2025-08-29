@@ -7,7 +7,7 @@ Progress through levels, earn coins, unlock achievements, and climb the leaderbo
 
 ## ✨ Features  
 
-- 🆕 **5 Levels of Difficulty**  
+- 🆕 **5 Levels of Difficulty** 
   - Beginner → Easy → Medium → Hard → Insane  
   - 🎮 **Survival Mode** (infinite typing until mistake)
 
