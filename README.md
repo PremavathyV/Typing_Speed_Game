@@ -12,7 +12,7 @@ Progress through levels, earn coins, unlock achievements, and climb the leaderbo
   - 🎮 **Survival Mode** (infinite typing until mistake)
 
 - ⚡ **Addictive Gameplay**  
-  - Random words appear with a countdown timer  
+  - Random words appear with a countdown timer 
   - Speed increases as you progress 
   - Progress bar shows remaining time  
 
