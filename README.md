@@ -1,7 +1,7 @@
 # 🎯 Typing Speed Game – Levels Edition  
 
 An addictive and fun **Typing Speed Challenge** built with **HTML, CSS, and JavaScript**.  
-Progress through levels, earn coins, unlock achievements, and climb the leaderboard while improving your typing skills! 🚀  
+Progress through levels, earn coins, unlock achievements, and climb the leaderboard while improving your typing skills! 🚀   
 
 ---
 
