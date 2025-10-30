@@ -14,7 +14,7 @@ Progress through levels, earn coins, unlock achievements, and climb the leaderbo
 - ⚡ **Addictive Gameplay**  
   - Random words appear with a countdown timer
   - Speed increases as you progress
-  - Progress bar shows remaining time  
+  - Progress bar shows remaining time   
 
 - 🔥 **Extra Fun**  
   - Combo streaks → bonus points  
