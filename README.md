@@ -16,7 +16,7 @@ Progress through levels, earn coins, unlock achievements, and climb the leaderbo
   - Speed increases as you progress
   - Progress bar shows remaining time   
 
-- 🔥 **Extra Fun**  
+- 🔥 **Extra Fun**   
   - Combo streaks → bonus points  
   - Power-ups: ⏱ +Time, x2 Combo, 💰 +Coins  
   - XP bar & level progression  
